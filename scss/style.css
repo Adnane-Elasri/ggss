@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  padding: 3.1em;
+}
+nav .links {
+  display: flex;
+  gap: 5em;
+  font-size: 1.3em;
+}
+nav .links #lks {
+  text-decoration: none;
+  color: #20211E;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+}
+
+.head {
+  background-image: url("/imgs/Character.jpg");
+  background-size: cover;
+  background-position: center right;
+  width: 100%;
+  height: 35em;
+  overflow: hidden;
+  padding: 6em;
+  text-align: center;
+  padding-right: 55em;
+}
+.head h1 {
+  font-size: 3.7em;
+  font-family: "EB Garamond", serif;
+}
+.head p {
+  font-size: 1.9em;
+  font-family: "EB Garamond", serif;
+}
+.head .img-text {
+  color: white;
+}
+.head .btn-pad {
+  padding-top: 2.9em;
+}
+.head .btn-pad #btn-me {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  padding: 0.5em;
+  width: 9em;
+}
+
+.about-me {
+  padding: 6em;
+}
+.about-me h1 {
+  float: left;
+  font-size: 4.5em;
+  font-family: "EB Garamond", serif;
+  color: #20211E;
+  text-shadow: 7px 7px 5px #bebebb;
+}
+.about-me p {
+  width: em;
+  padding-left: 25em;
+  color: #7A7B7B;
+}
+.about-me .btn-download {
+  text-align: center;
+  padding-right: 17em;
+  padding-top: 1.5em;
+}
+.about-me .btn-download #btn-down {
+  background-color: #3D3D3D;
+  color: white;
+  padding: 0.7em;
+}/*# sourceMappingURL=style.css.map */
